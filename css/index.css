@@ -1,0 +1,133 @@
+body{background-color: #f5f5ef;}
+
+.head1{
+	width:100%;
+	height:70px;
+	background-color:white;
+	-webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+    -moz-box-shadow:0px 3px 5px rgba(100, 100, 100, 0.49);
+    box-shadow:0px 3px 5px rgba(100, 100, 100, 0.49);
+	position:fixed;
+	top:0px;
+	z-index:1;
+}
+
+.logout-box{
+	width:100%;
+	height:70px;
+}
+.logout-photo{
+	width:60px;
+	height:60px;
+	margin:5px 5px;
+	float:left;
+}
+.logout-photo img{
+	width:60px;
+	height:60px;
+}
+.logout-link{
+	width:60px;
+	height:60px;
+	margin:5px 5px;
+	padding:20px 5px;
+	font-weight:bold;
+	float:left;
+}
+.logout-link a{
+color:black;  
+}
+.logout-link a:hover{
+  text-decoration:none;
+color:black;  
+}
+
+.head1 input[type="text"] {
+width:100%;
+height:40px;
+border-radius:0px;
+box-shadow:none;
+border:none;
+border-bottom:1px solid #ebebe0;
+margin-top:20px;
+}
+
+.create-blog{
+	width:100%;
+	height:100px;
+	background:white;
+	margin-top:70px;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.head1 textarea {
+width:100%;
+height:40px;
+border-radius:0px;
+box-shadow:none;
+border:none;
+border-bottom:1px solid #ebebe0;
+margin-top:20px;
+}
+.head1 input:focus{
+border-bottom:1px solid #ffb380;
+}
+.head1 textarea:focus{
+border-bottom:1px solid #ffb380;
+}
+
+.myposts{
+	width:100%;
+	height:auto;
+	background:white;
+	margin-top:15px;
+	padding:10px;
+}
+.myposts .fa-pencil{color:#0099cc;} 
+.myposts .fa-trash{color:#ff8533;}
+.media-right button{display:none;}
+.myposts:hover  .media-right button{display:block;}
+
+.myposts input[type="text"] {
+width:100%;
+height:40px;
+border-radius:0px;
+box-shadow:none;
+border:none;
+border-bottom:1px solid #ebebe0;
+margin-top:20px;
+}
+.myposts textarea {
+width:100%;
+height:auto;
+border-radius:0px;
+box-shadow:none;
+border:none;
+border-bottom:1px solid #ebebe0;
+margin-top:20px;
+}
+.myposts input:focus{
+border-bottom:1px solid #ffb380;
+}
+.myposts textarea:focus{
+border-bottom:1px solid #ffb380;
+}
